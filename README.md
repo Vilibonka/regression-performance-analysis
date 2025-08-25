@@ -4,7 +4,7 @@ This project demonstrates the implementation of linear and polynomial regression
 
 The dataset is generated from the quadratic function:
   y=0.05x^2+3x+noise
-  where noise is randomly sampled to simulate real-world measurement errors.
+where noise is randomly sampled to simulate real-world measurement errors.
 
 ⚡ The program does not store learned parameters persistently; each execution trains the model again from scratch.
 
@@ -18,7 +18,7 @@ Features:
     2) valgrind (memory usage)
     3) time (execution time)
     4) mpstat / htop (CPU utilization)
-\n
+
 
 Versions:
   - v1 → Basic linear regression implementation
