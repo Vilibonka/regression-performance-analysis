@@ -18,7 +18,7 @@ Features:
     2) valgrind (memory usage)
     3) time (execution time)
     4) mpstat / htop (CPU utilization)
-
+\n
 
 Versions:
   - v1 → Basic linear regression implementation
