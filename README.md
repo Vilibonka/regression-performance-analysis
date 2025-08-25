@@ -32,11 +32,11 @@ Project Goal:
   - How different implementations (single-threaded, sampled data, multithreaded) affect accuracy (MSE) and performance (execution time, CPU usage, memory).
 
 Example Outputs:
-  # Linear Regression MSE: ~13,910,000 (poor fit for quadratic data)
-  # Polynomial Regression MSE: ~99 (close to real quadratic model)
-  # Sampled Data Regression MSE: varies depending on subset size (larger samples ≈ better accuracy)
+  - Linear Regression MSE: ~13,910,000 (poor fit for quadratic data)
+  - Polynomial Regression MSE: ~99 (close to real quadratic model)
+  - Sampled Data Regression MSE: varies depending on subset size (larger samples ≈ better accuracy)
 
 Tools & Environment:
-# Language: C++17
-# Build System: g++ with -O2 and -O3 optimization flags
-# Benchmarking Tools: gprof, valgrind, perf, mpstat, htop
+  - Language: C++17
+  - Build System: g++ with -O2 and -O3 optimization flags
+  - Benchmarking Tools: gprof, valgrind, perf, mpstat, htop
