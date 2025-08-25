@@ -19,11 +19,13 @@ Features:
     3) time (execution time)
     4) mpstat / htop (CPU utilization)
 
+
 Versions:
   - v1 → Basic linear regression implementation
   - v2 → Added polynomial regression (quadratic fitting)
   - v3 → Introduced sampling functions (training on subsets of data)
   - v4 → Parallel regression with multithreading (std::thread) and Performance-optimized version with Linux benchmarking and analysis
+
 
 Project Goal:
   The main goal of this project is to explore:
@@ -31,10 +33,12 @@ Project Goal:
   - The impact of noise on regression performance.
   - How different implementations (single-threaded, sampled data, multithreaded) affect accuracy (MSE) and performance (execution time, CPU usage, memory).
 
+
 Example Outputs:
   - Linear Regression MSE: ~13,910,000 (poor fit for quadratic data)
   - Polynomial Regression MSE: ~99 (close to real quadratic model)
   - Sampled Data Regression MSE: varies depending on subset size (larger samples ≈ better accuracy)
+
 
 Tools & Environment:
   - Language: C++17
